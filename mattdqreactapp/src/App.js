@@ -1,19 +1,15 @@
-import loading from './gifs/loading.gif';
+import React, { Component } from 'react';
 import './App.css';
+import Navbar from './Components/navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="App-loading">
-          <p> 
-            Loading....
-          </p>
-        </div>
-        <img src={loading} className="App-logo" alt="logo" />
-     </header>
-    </div>
-  );
+class App extends Component {
+	render() {
+        return (
+            <div className="App">
+                <Navbar />
+            </div>
+        );
+	}
 }
 
 export default App;

@@ -1,27 +1,74 @@
-.App-logo {
-  height: 30vmin;
-  pointer-events: none;
-  margin-top: 1;
-}
-.App-loading {
-  color: white;
-  margin-bottom: 85px;
-}
-.App-linearprogress {
-  width: 800px;;
-  height: 100px;
-  margin-top: 50px;
-}
-.linearprogress{
-  width: 100px;
-  height: 100px;
-}
-.App-header {
+.App {
   background-color: #1E1E1E;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(6px + 2vmin);
 }
+
+.App-nav {
+  display: flex;
+  align-items: center;
+  font-family: Consolas;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.App-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App-nav ul {
+  height: 100%;
+  width: 52%;
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.App-nav li {
+  flex: 1;
+  line-height: 100%;
+  text-align: center;
+  border-left: 2px solid #DDDDDD;
+}
+
+.App-subheader{
+  color: white;
+  width: 48%;
+}
+
+.title {
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  margin-left: 5%;
+}
+
+
+.portfolio {
+  color: #FF6666;
+}
+
+.blog {
+  color: #39B8FF;
+}
+
+.contact {
+  color: #E43CFF;
+}
+
+.about {
+  color: #00FF47;
+}
+
+.lang-button {
+  background-color: #1E1E1E;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
