@@ -1,10 +1,9 @@
-.App {
-  background-color: #1E1E1E;
-  min-height: 100vh;
-  flex-direction: column;
+.App{
+  height: 100vh;
 }
 
 .App-nav {
+  background-color: #1E1E1E;
   display: flex;
   align-items: center;
   font-family: Consolas;
@@ -48,7 +47,6 @@
   margin-left: 5%;
 }
 
-
 .portfolio {
   color: #FF6666;
 }
@@ -65,6 +63,37 @@
   color: #00FF47;
 }
 
+.portfolio__title {
+  color: #FF6666;
+  background-color: #1E1E1E;
+  height: 100vh;
+  text-align: center;
+  overflow: auto;
+}
+
+.blog__title{
+  color: #39B8FF;
+  background-color: #1E1E1E;
+  height: 100vh;
+  text-align: center;
+  overflow: auto;
+}
+
+.contact__title {
+  color: #E43CFF;
+  background-color: #1E1E1E;
+  height: 100vh;
+  text-align: center;
+  overflow: auto;
+}
+
+.about__title {
+  color: #00FF47;
+  background-color: #1E1E1E;
+  height: 100vh;
+  text-align: center;
+  overflow: auto;
+}
 .lang-button {
   background-color: #1E1E1E;
   color: white;
