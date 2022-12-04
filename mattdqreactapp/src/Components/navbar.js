@@ -5,8 +5,8 @@ class Navbar extends Component {
         return (
             <nav className="App-nav">
                 <div className="App-subheader">
-                    <a className="title">Matheus Duque</a>
-                    <a className="sub-title">BackEnd Developer</a>
+                    <a href="/home" className="title">Matheus Duque</a>
+                    <a href="/home" className="sub-title">BackEnd Developer</a>
                 </div>
                 <ul>
                     <li class="portfolio">

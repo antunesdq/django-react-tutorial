@@ -1,3 +1,7 @@
+body{
+	background-color: #1E1E1E;
+}
+
 .App{
   height: 100vh;
 }
@@ -63,6 +67,13 @@
   color: #00FF47;
 }
 
+.lang-button {
+	background-color: #1E1E1E;
+	color: white;
+	border: none;
+	font-size: 20px;
+  }
+
 .portfolio__title {
   color: #FF6666;
   background-color: #1E1E1E;
@@ -94,10 +105,11 @@
   text-align: center;
   overflow: auto;
 }
-.lang-button {
-  background-color: #1E1E1E;
-  color: white;
-  border: none;
-  font-size: 20px;
-}
 
+.home__title {
+	color: white;
+	background-color: #1E1E1E;
+	height: 100vh;
+	text-align: center;
+	overflow: auto;
+  }
